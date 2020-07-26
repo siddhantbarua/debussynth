@@ -1,10 +1,4 @@
-#include "term.h"
-
-#include<termios.h>
-#include<unistd.h>
-#include<ctype.h>
-#include<stdio.h>
-#include<stdlib.h>
+#include"term.h"
 
 struct termios orig_termios;
 
